@@ -3,11 +3,7 @@
 Personal academic website built with [Hugo Blox](https://hugoblox.com/).
 
 **Live site:** [tanushreeburman.com](https://tanushreeburman.com)  
-**GitHub Pages:** [burmant.github.io/tanushreeburman.github.io](https://burmant.github.io/tanushreeburman.github.io/)
-
-## About
-
-I am a Ph.D. candidate in Computer Science at Tufts University. This site hosts my bio, publications, CV, and teaching.
+**GitHub Pages:** [burmant.github.io/tanushreeburman.github.io](https://github.com/BurmanT/tanushreeburman.github.io)
 
 ## Local development
 
