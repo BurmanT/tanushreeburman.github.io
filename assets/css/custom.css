@@ -1,0 +1,152 @@
+/* Tighten space between sticky header and About Me (resume-biography-3) */
+.resume-biography {
+  padding-top: 0.75rem !important;
+  padding-bottom: 1rem !important;
+}
+
+@media (min-width: 768px) {
+  .resume-biography {
+    padding-top: 1rem !important;
+    padding-bottom: 1.25rem !important;
+  }
+}
+
+/* Less space between Interests and Recent Publications */
+#section-resume-biography-3 {
+  padding-bottom: 1rem !important;
+}
+
+#papers {
+  padding-top: 1.5rem !important;
+  padding-bottom: 0 !important;
+}
+
+#journals {
+  padding-top: 0 !important;
+  padding-bottom: 1.5rem !important;
+  margin-top: -1rem !important;
+}
+
+/* Larger About Me body text */
+.resume-biography .bio-text,
+.resume-biography .bio-text p {
+  font-size: 1.25rem !important;
+  line-height: 1.75 !important;
+}
+
+@media (min-width: 640px) {
+  .resume-biography .bio-text,
+  .resume-biography .bio-text p {
+    font-size: 1.375rem !important;
+  }
+}
+
+/* Match Interests (and Education) heading size to About Me */
+.resume-biography h3 {
+  font-size: 1.25rem !important; /* text-xl */
+  line-height: 1.75rem !important;
+}
+
+@media (min-width: 640px) {
+  .resume-biography h3 {
+    font-size: 1.5rem !important; /* sm:text-2xl */
+    line-height: 2rem !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .resume-biography h3 {
+    font-size: 1.875rem !important; /* lg:text-3xl */
+    line-height: 2.25rem !important;
+  }
+}
+
+/* Larger Interests tags — stacked vertically */
+.resume-biography .flex.flex-wrap.gap-3 {
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+  align-items: flex-start !important;
+}
+
+.resume-biography .inline-block.bg-primary-50 {
+  font-size: 1.125rem !important;
+  padding: 0.625rem 1.25rem !important;
+  display: block !important;
+  width: fit-content !important;
+}
+
+/* Recent Publications: less gap under heading, larger citations */
+#papers .mb-6,
+#journals .mb-6 {
+  margin-bottom: 0.75rem !important;
+}
+
+#papers .view-citation,
+#journals .view-citation {
+  font-size: 1.125rem !important;
+  line-height: 1.7 !important;
+  margin-bottom: 1.25rem !important;
+}
+
+/* Larger, easier-to-click DOI / attachment links in citations */
+#papers .hb-attachment-link,
+#papers .hb-attachment-link-small,
+#journals .hb-attachment-link,
+#journals .hb-attachment-link-small {
+  font-size: 1rem !important;
+  padding: 0.35rem 0.5rem !important;
+  margin-right: 0.75rem !important;
+  line-height: 1.5 !important;
+}
+
+#papers .hb-attachment-link svg,
+#journals .hb-attachment-link svg {
+  width: 1.15em !important;
+  height: 1.15em !important;
+}
+
+/* Larger header nav tabs */
+.nav-link {
+  font-size: 1.125rem !important;
+  padding-left: 0.85rem !important;
+  padding-right: 0.85rem !important;
+}
+
+@media (min-width: 1024px) {
+  .nav-link {
+    font-size: 1.25rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+/* Match site name size to nav tabs */
+.navbar-brand {
+  font-size: 1.125rem !important;
+}
+
+@media (min-width: 1024px) {
+  .navbar-brand {
+    font-size: 1.25rem !important;
+  }
+}
+
+/* Larger affiliation under name (e.g. Tufts University) */
+.resume-biography .md\:col-span-4 > p.text-lg.text-gray-700,
+.resume-biography .md\:col-span-4 p.text-lg.text-gray-700 {
+  font-size: 1.5rem !important;
+  line-height: 1.4 !important;
+}
+
+/* Larger education year and institution */
+.resume-biography .flex-1.flex-grow > p.text-sm,
+.resume-biography .flex-1.flex-grow p.text-gray-500 {
+  font-size: 1.125rem !important;
+  line-height: 1.5 !important;
+}
+
+.resume-biography .flex-1.flex-grow > p.text-base,
+.resume-biography .flex-1.flex-grow p.text-gray-700 {
+  font-size: 1.25rem !important;
+  line-height: 1.5 !important;
+}

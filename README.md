@@ -1,3 +1,8 @@
+cd /Users/tanushreeburman/tanushreeburman.github.io
+hugo server
+
+
+
 # [The Academic CV That Gets You Hired](https://github.com/HugoBlox/hugo-theme-academic-cv)
 
 [![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=preview)

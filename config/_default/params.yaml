@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Tanushree Burman"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -33,7 +33,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   theme:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
-    mode: system
+    mode: light
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
     pack: "default"
     # Optional: Override theme pack colors
@@ -88,9 +88,9 @@ hugoblox:
     # Menu alignment
     align: center # left | center | right
     # Feature toggles
-    search: true
-    theme_toggle: true
-    theme_picker: true
+    search: false
+    theme_toggle: false
+    theme_picker: false
     language_switcher: true
     # Call-to-action button
     cta:
@@ -107,7 +107,7 @@ hugoblox:
     style: minimal # minimal | columns | centered
     language_switcher: true
     # Custom footer text (HTML supported)
-    text: ""
+    text: "Built with [Hugo Blox](https://hugoblox.com)."
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
@@ -115,9 +115,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {year} Tanushree Burman"
     license:
-      type: cc # cc | custom
+      type: "" # cc | custom
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -240,7 +240,7 @@ hugoblox:
   # Regional formatting preferences
   # ────────────────────────────────────────────────────────────────────────────
   locale:
-    date_format: "Jan 2, 2006" # Go time format
+    date_format: "2006" # Go time format
     time_format: "3:04 PM"
     address_format: en-us
 
