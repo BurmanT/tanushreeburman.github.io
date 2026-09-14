@@ -42,9 +42,12 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 disableAliases: true
+# Do not emit RSS/sitemap or taxonomy/term pages (/tags/, /publication_types/).
+# Homepage paper filters use Params.tags via a local collection-block override.
+disableKinds: [RSS, sitemap, taxonomy, term]
 outputs:
-  home: [HTML, RSS]
-  section: [HTML, RSS]
+  home: [HTML]
+  section: [HTML]
 imaging:
   resampleFilter: lanczos
   anchor: smart

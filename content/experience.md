@@ -3,6 +3,11 @@ title: 'Experience'
 date: 2023-10-24
 type: landing
 
+# Kept for editing later; not published as a public URL.
+build:
+  render: never
+  list: never
+
 design:
   spacing: '5rem'
 

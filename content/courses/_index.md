@@ -3,6 +3,11 @@ title: Courses
 summary: Classes I have taught
 type: landing
 
+# Kept for editing later; not published as a public URL.
+build:
+  render: never
+  list: never
+
 sections:
   - block: markdown
     content:
